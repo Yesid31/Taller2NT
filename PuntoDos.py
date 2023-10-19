@@ -32,7 +32,7 @@ print('Cual es la capital del Departamento de: ', DepartamentoAleatorio, '?')
 contador=0
 while contador<3:
     contador+=1
-    respuesta = input('Respuesta:  ')
+    respuesta = input('Respuesta:  ').capitalize()
     if respuesta == 'salir':
         print('Gracias por participar, hasta pronto!')
         break

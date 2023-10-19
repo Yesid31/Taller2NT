@@ -15,7 +15,7 @@ def juego_departamentos():
     contador = 0
     while contador < 3:
         contador += 1
-        respuesta = input('Respuesta: ')
+        respuesta = input('Respuesta: ').capitalize()
         if respuesta.lower() == 'salir':
             print('Gracias por participar, hasta pronto!')
             break
